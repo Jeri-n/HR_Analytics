@@ -1,0 +1,55 @@
+Project 1:
+==========
+
+Conda Environment check
+-----------------------
+conda env list # list conda env
+conda create -n <env_name> python=3.8 -y # create new env
+conda deactivate # deactivate an env
+
+
+
+Steps included in the Project life Cycle
+========================================
+Step 1: Data Preparation 
+Step 2: model building
+Step 3: Building the app using Flask/Fast API
+Step 4: HTML
+Step 5: Code Push to GitHub
+Step 6: Deploying the app using Heroku
+
+
+
+UI : https://predict-diabetes-using-ml.herokuapp.com/
+
+HR Analytics Database
+---------------------
+Dataset details
+===============
+1:employee_id-Unique ID for employee
+
+2:department-Department of employee
+
+3:region-Region of employment (unordered)
+
+4:education-Education Level
+
+5:gender-Gender of Employee
+
+6:recruitment_channel-Channel of recruitment for employee
+
+7:no_of_trainings-no of other trainings completed in previous year on soft skills, technical skills etc.
+
+8:age-Age of Employee
+
+9:previous_year_rating-Employee Rating for the previous year
+
+10:length_of_service-Length of service in years
+
+11:KPIs_met >80%-if Percent of KPIs(Key performance Indicators) >80% then 1 else 0
+
+12:awards_won?-if awards won during previous year then 1 else 0
+
+13:avg_training_score-Average score in current training evaluations
+
+14:is_promoted-(Target) Recommended for promotion
